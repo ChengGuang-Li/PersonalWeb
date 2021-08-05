@@ -4,6 +4,7 @@ import Home from "./components/Home/Home";
 import Navbar from "./components/Navbar";
 import Preloader from "../src/components/Pre";
 import Footer from "./components/Footer";
+import About from "./components/About/About";
 
 import "./style.css";
 import "./App.css";
@@ -26,6 +27,7 @@ function App() {
 				<Navbar />
 				<Switch>
 					<Route path="/" exact component={Home} />
+					<Route path="/about" component={About} />
 				</Switch>
 				<Footer />
 			</div>
