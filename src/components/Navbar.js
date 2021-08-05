@@ -91,11 +91,11 @@ function NavBar() {
 
 						<Nav.Item>
 							<Nav.Link
-								href="https://blogs.soumyajit.tech/"
+								href="https://chengguang-li.github.io/"
 								target="_blank"
 								rel="noreferrer"
 							>
-								<FaBlog style={{ marginBottom: "2px" }} /> Blogs
+								<FaBlog style={{ marginBottom: "2px" }} /> Blog
 							</Nav.Link>
 						</Nav.Item>
 					</Nav>
