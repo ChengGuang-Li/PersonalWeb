@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Preloader from "../src/components/Pre";
 import Footer from "./components/Footer";
 import About from "./components/About/About";
+import Resume from "./components/Resume/Resume";
 
 import "./style.css";
 import "./App.css";
@@ -28,6 +29,7 @@ function App() {
 				<Switch>
 					<Route path="/" exact component={Home} />
 					<Route path="/about" component={About} />
+					<Route path="/resume" component={Resume} />
 				</Switch>
 				<Footer />
 			</div>
