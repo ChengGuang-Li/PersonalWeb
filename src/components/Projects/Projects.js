@@ -32,9 +32,9 @@ function Projects() {
 						<ProjectCard
 							imgPath={cm}
 							isBlog={false}
-							title="Movie Lover"
+							title="Customer Management System"
 							description="TTT"
-							link="https://github.com/ChengGuang-Li/IE-iteration3Web"
+							link="https://github.com/ChengGuang-Li/CustomerManagementWebApp"
 						/>
 					</Col>
 					<Col md={6} className="project-card">
@@ -43,7 +43,7 @@ function Projects() {
 							isBlog={false}
 							title="Movie Memoir"
 							description="TTT"
-							link="https://github.com/ChengGuang-Li/IE-iteration3Web"
+							link="https://github.com/ChengGuang-Li/MovieMemoir"
 						/>
 					</Col>
 					<Col md={6} className="project-card">
